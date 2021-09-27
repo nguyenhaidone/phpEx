@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-center {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-style {
+    background-color: #345bae;
+    color: white;
+    padding: 10px;
+}
+
+.lead {
+    padding: 0;
+    margin: 0 10px;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-content {
+    width: 50%;
+    padding: 5px;
+}
+.right-content {
+    width: 50%;
+    padding: 5px;
+}
+.label-login {
+    font-size: 20px;
+}
+form {
+    padding: 20px;
+}
+label,
+h2 {
+    font-weight: 600;
+    color: #505050;
+}
+.title-infor {
+    margin: 20px;
+}
+
+.profile-image {
+    text-align: center;
+}
